@@ -1,0 +1,11 @@
+
+{% block body %}
+<br/><br/>
+<h5>We have the following roles</h5>
+
+    {% for role in object_list %}
+    {{role.role }} |
+
+     {% endfor %}
+
+{% endblock %}
